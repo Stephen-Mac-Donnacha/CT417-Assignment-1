@@ -1,9 +1,7 @@
 import java.util.ArrayList;
-import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TestModule {
-    @Test
     public void testModule(){
         // Create Module m1 for testing purposes
         Module m1 = new Module("Machine Learning",
