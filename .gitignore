@@ -1,0 +1,44 @@
+# Default intelliJ files to ignore 
+.idea/
+
+# General gradle files to be ignored: https://github.com/github/gitignore/blob/master/Gradle.gitignore
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore gradle GUI config
+grade-app.setting 
+
+# Avoid ignoring gradle wrapper jar file 
+!gradle-wrapper.jar 
+
+# Cache of project
+.gradletasknamecache
+
+# General Java files to be ignored: https://github.com/github/gitignore/blob/master/Java.gitignore 
+
+# Compiled class file to be ignored 
+*.class
+
+# Log file to be ignored 
+*.log
+
+# BlueJ files 
+*.ctxt
+
+# Mobile Toools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+# Add this exception or Jenkins can't build the project
+!gradle/wrapper./gradle-wrapper.jar
+*.ear
+*.zip
+*.tar.gz
+*.rar 
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
