@@ -94,7 +94,6 @@ public class Course {
     public String toString() {
         return "Course{" +
                 "courseName='" + courseName + '\'' +
-                ", students=" + students +
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
                 '}';
