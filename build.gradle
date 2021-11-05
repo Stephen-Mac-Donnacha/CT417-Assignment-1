@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'maven-publish'
+
 }
 
 group 'org.example'
@@ -10,17 +10,6 @@ repositories {
     mavenCentral()
 }
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'org.gradle.sample'
-            artifactId = 'Assignment1'
-            version = '1.0'
-
-            from components.java
-        }
-    }
-}
 
 dependencies {
     testImplementation group: 'junit', name: 'junit', version: '4.12'
