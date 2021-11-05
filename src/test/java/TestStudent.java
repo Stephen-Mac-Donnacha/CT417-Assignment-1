@@ -1,10 +1,12 @@
 //import neccessary packages
 import org.joda.time.DateTime;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import static org.junit.Assert.*;
 
 public class TestStudent {
+    @Test
     public void testStudent(){
         // Create Course c1 and Student s1
         Course c1 = new Course("CS&IT",
